@@ -5,8 +5,9 @@
 
 ## 1. Problem Formulation
 - Dataset we used:
-- Goal of our project:
-- Are we able to predict the GPU performance based on factors such as memory configuration, SM count, transistors count and die size? 
+- Outcome of our project:
+     - We can predict GPU performance based on factors like memory configuration, SM count, transistors count and die size
+     - Can modify the factors to improve the GPU performance
 
 ## 2. Data Preparation and Cleaning
 
