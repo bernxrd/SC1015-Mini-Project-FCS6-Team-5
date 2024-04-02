@@ -8,6 +8,8 @@
 - Outcome of our project:
      - We can predict GPU performance based on factors like memory configuration, SM count, transistors count and die size
      - Can modify the factors to improve the GPU performance
+- Motivation:
+     - As cost of production of chips increases, we have to  
 
 ## 2. Data Preparation and Cleaning
 
