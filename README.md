@@ -36,9 +36,14 @@ Models Used:
 
 
 Generational performance 
+
 Compare generational gaps 
+
 Compare the performance progress of the two companies over the years 
+
 Compare transistor density 
+
 Predictive modeling of future GPU generations 
+
 Predict Nvidia or AMD is doing better 
 
