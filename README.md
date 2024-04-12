@@ -6,6 +6,7 @@
 ## 1. Problem Formulation
 - Dataset we used:
 - Outcome of our project:
+     - Are we able to predict GPU performance (FP32) based on its attributes
      - We can predict GPU performance based on factors like memory configuration, SM count, transistors count and die size
      - Predictive modeling of future generations and comparisions of future generational gaps between manufacturers 
      - Can modify the factors to improve the GPU performance
