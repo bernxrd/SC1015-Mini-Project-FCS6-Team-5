@@ -42,6 +42,8 @@ Models Used:
      - xxx
 3. Gradient Boosting Regression
      - xxx
+4. Multi-Output Regression
+     - xxx
 
 
 
