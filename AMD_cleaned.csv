@@ -1,4 +1,4 @@
-,Manufacturer,Foundry,Architecture,Abritary Gen,Gen Year,FP32 (float) in GFLOPS,Memory Size (MB),Memory Type,Bus Width (bits),GPU clock (MHz),Memory clock (MHz),Process Size (nm),Transistors (millions),Density (M/mm²),Die Size (mm²),Max. TDP (W),Pixel Rate (GPixel/s),Texture Rate (GTexel/s),L2 Cache (KB),Shading Units
+,Manufacturer,Foundry,Architecture,Arbitrary Gen,Gen Year,FP32 (float) in GFLOPS,Memory Size (MB),Memory Type,Bus Width (bits),GPU clock (MHz),Memory clock (MHz),Process Size (nm),Transistors (millions),Density (M/mm²),Die Size (mm²),Max. TDP (W),Pixel Rate (GPixel/s),Texture Rate (GTexel/s),L2 Cache (KB),Shading Units
 0,AMD,TSMC,TeraScale 2,1,2009,104.0,512.0,DDR2,64,650.0,667.0,40.0,292.0,4.9,59.0,19.0,2.6,5.2,128.0,80
 1,AMD,TSMC,TeraScale 2,1,2009,104.0,512.0,GDDR3,64,650.0,500.0,40.0,292.0,4.9,59.0,25.0,2.6,5.2,128.0,80
 2,AMD,TSMC,TeraScale 2,1,2009,104.0,1024.0,GDDR3,64,650.0,800.0,40.0,292.0,4.9,59.0,25.0,2.6,5.2,128.0,80
