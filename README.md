@@ -6,26 +6,37 @@
 ## 1. Problem Formulation
 - Dataset we used:
 - Outcome of our project:
-     - Identify important attributes that correlate strongly to output performance (GFLOPS)
+     - Identify important attributes that correlate strongly to output performance FP32 (GFLOPS)
+     - Why FP32? because it is the industry standard
      - Modify the factors to improve the GPU performance
        
 - Motivation:
      - As technology of manufacturing of chips advances, we cannot improve all aspects of chip manufacturing, so we suggest to focus on attributes that are very strongly correlated to output performance.
 
 ## 2. Data Preparation and Cleaning
+- Data Preparation:
+     - We scrape ___ website for data using API
+ 
+- Data Cleaning:
+     - We then identify which factors that may be useless for example OpenGL.
+     - We also drop columns that are repeated.
+     - We then drop columns with incomplete information.
+     - We also drop columns that are not related with chip attribute but related to performance output for example, Texture Rate, Pixel Rate, FP16, FP64
 
 ## 3. Exploratory Data Analysis
 Multi-Variate data analysis: 
-GPU clock, Memory clock, Transistors count
+In our cleaned dataset, we have 17 attributes and 1 response variable (FP32 (GFLOPS))
+We plotted the count of Arbitrary generations of chips (based on the chip Architecture)
+We use violin plot to see the distribution of all numerical variables
+We also plotted the correlation heatmap
+
 
 
 
 ## 4. Machine Learning
 
 Models Used:
-1. Linear Regression
-     xxx
-2. Random Forest Classification
+1. Random Forest Regression
      xxx
 
 
