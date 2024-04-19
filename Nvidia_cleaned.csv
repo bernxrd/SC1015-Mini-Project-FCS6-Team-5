@@ -1,4 +1,4 @@
-,Manufacturer,Foundry,Architecture,Abritary Gen,Gen Year,FP32 (float) in GFLOPS,Memory Size (MB),Memory Type,Bus Width (bits),GPU clock (MHz),Memory clock (MHz),Process Size (nm),Transistors (millions),Density (M/mm²),Die Size (mm²),Max. TDP (W),Pixel Rate (GPixel/s),Texture Rate (GTexel/s),L2 Cache (KB),Shading Units
+,Manufacturer,Foundry,Architecture,Arbitrary Gen,Gen Year,FP32 (float) in GFLOPS,Memory Size (MB),Memory Type,Bus Width (bits),GPU clock (MHz),Memory clock (MHz),Process Size (nm),Transistors (millions),Density (M/mm²),Die Size (mm²),Max. TDP (W),Pixel Rate (GPixel/s),Texture Rate (GTexel/s),L2 Cache (KB),Shading Units
 0,Nvidia,UMC,Tesla,1,2006,20.8,256.0,DDR2,64,540.0,400.0,65.0,210.0,2.4,86.0,40.0,2.16,2.16,16.0,8
 1,Nvidia,TSMC,Tesla,1,2006,117.5,512.0,DDR2,128,738.0,504.0,55.0,314.0,2.6,121.0,50.0,5.904,11.81,32.0,32
 2,Nvidia,TSMC,Tesla,1,2006,89.6,512.0,GDDR3,128,550.0,800.0,55.0,314.0,2.6,121.0,50.0,4.4,8.8,32.0,32
