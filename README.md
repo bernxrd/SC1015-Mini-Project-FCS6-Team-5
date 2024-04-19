@@ -37,7 +37,11 @@ We also plotted the correlation heatmap
 
 Models Used:
 1. Random Forest Regression
-     xxx
+     - xxx
+2. XGBoost
+     - xxx
+3. Gradient Boosting Regression
+     - xxx
 
 
 
