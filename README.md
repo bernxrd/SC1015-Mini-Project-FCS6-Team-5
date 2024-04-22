@@ -50,11 +50,11 @@ Multi-Variate data analysis:
 3. Gradient Boosting Regression
 4. Multi-Output Regression (Extra)
 
-## 5. Conclusion
--  Data Driven Insights
--  Model Comparison
--  What did we learn
-
+## What did we learn
+-  Scraping data from website into excel sheet. 
+-  All machine learning models used in this project.
+-  Level of importance of each feature for predicting FP32.
+-  Goodness of fit of each machine learning model for our particular dataset to predict FP32. 
 
 
 
