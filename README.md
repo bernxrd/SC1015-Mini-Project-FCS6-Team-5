@@ -1,10 +1,16 @@
 # SC1015-Mini_Project
 
 ## About
+Mini-project for SC1015 (Introduction to Data Science and Artificial Intelligence). 
 Dataset used: List of Nvidia and AMD chips with detailed statistics about their features, manufactured from 2006 to 2024.
 
+# Contributors
+Lab Group FCSE Team 5: 
+- Chen Xinyu
+- Bernard Iskandar
+- Shao YingZhan
 
-## 1. Problem Formulation
+## Problem Formulation
 
 - Objectives:
 
@@ -17,7 +23,7 @@ Chip companies generally create a range of chips that prioritises different feat
 
 Extra objective: Since pixel rate and texture are close indicators of computing performance, we attempted to use pixel rate and texture rate with FP32 in Gflops as part of a multioutput regressor model as well. 
      
-## 2. Data Preparation and Cleaning
+## Data Preparation and Cleaning
 - Data Preparation:
      - We scraped Techpowerup.com for data on Nvidia and AMD chips manufactured from 2006 to 2024. 
  
@@ -30,14 +36,14 @@ Extra objective: Since pixel rate and texture are close indicators of computing 
   
 In the cleaned dataset, we have 14 predictor variables and 1 response variable (FP32 in Gflops).
 
-## 3. Exploratory Data Analysis
+## Exploratory Data Analysis
 
 Multi-Variate data analysis: 
 - plotted the histogram of Arbitrary generations of chips (based on the chip Architecture).
 - plotted violin plot to observe the distribution of all numerical variables.
 - plotted heatmap to observe correlation between each variable.
 
-## 4. Machine Learning Models
+## Machine Learning Models
 
 1. Random Forest Regression
 2. XGBoost
