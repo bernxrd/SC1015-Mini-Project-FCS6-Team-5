@@ -12,12 +12,12 @@ Lab Group FCSE Team 5:
 
 ## Problem Formulation
 
-- Objectives:
+Objectives:
 
 1. Given a set of chip statistics or features, develop a predictive model to estimate chip performance.The response variable for chip performance is FP32 in Gflops as it is the industry standard. 
 2. Identify important features that affect FP32 in Gflops. 
        
-- Motivation / Application:
+Motivation / Application:
 
 Chip companies generally create a range of chips that prioritises different features to cater to different market segments and sectors. The predictive model can be helpful for manufacturers to predict the performance of their chips based on the chips' statistics and help manufacturers to better evaluate different design options and make informed decisions to optimize their chip performance.
 
