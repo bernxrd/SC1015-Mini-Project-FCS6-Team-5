@@ -50,6 +50,13 @@ Multi-Variate data analysis:
 3. Gradient Boosting Regression
 4. Multi-Output Regression (Extra)
 
+## Conclusion 
+- Transistors (millions) and GPU Clock (MHz) are most important features. Thus, research should focus on this two variable to improve chip performance. 
+- Memory Size, Bus Width and Memory Clock have significant impact as well, indicating that memory configurations impact GPU performance alongside processing capabilities.Memory configurations could be a key indicator in differentiating the chip in the market. 
+- Certain Architecture like Architecture_RDNA 3.0 and Architecture_Ampere improves  GPU capabilities. Research and development in architecture to improve product performance and market positioning. 
+
+
+
 ## What did we learn
 -  Scraping data from website into excel sheet. 
 -  All machine learning models used in this project.
