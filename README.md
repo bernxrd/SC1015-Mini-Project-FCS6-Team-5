@@ -1,67 +1,54 @@
 # SC1015-Mini_Project
 
 ## About
+Dataset used: List of Nvidia and AMD chips with detailed statistics about their features, manufactured from 2006 to 2024.
 
 
 ## 1. Problem Formulation
-- Dataset we used:
-- Outcome of our project:
-     - Identify important attributes that correlate strongly to output performance FP32 (GFLOPS)
-     - Why FP32? because it is the industry standard
-     - Modify the factors to improve the GPU performance
-       
-- Motivation:
-     - As technology of manufacturing of chips advances, we cannot improve all aspects of chip manufacturing, so we suggest to focus on attributes that are very strongly correlated to output performance.
 
+- Objectives:
+
+1. Given a set of chip statistics or features, develop a predictive model to estimate chip performance.The response variable for chip performance is FP32 in Gflops as it is the industry standard. 
+2. Identify important features that affect FP32 in Gflops. 
+       
+- Motivation / Application:
+
+Chip companies generally create a range of chips that prioritises different features to cater to different market segments and sectors. The predictive model can be helpful for manufacturers to predict the performance of their chips based on the chips' statistics and help manufacturers to better evaluate different design options and make informed decisions to optimize their chip performance.
+
+Extra objective: Since pixel rate and texture are close indicators of computing performance, we attempted to use pixel rate and texture rate with FP32 in Gflops as part of a multioutput regressor model as well. 
+     
 ## 2. Data Preparation and Cleaning
 - Data Preparation:
-     - We scrape ___ website for data using API
+     - We scraped Techpowerup.com for data on Nvidia and AMD chips manufactured from 2006 to 2024. 
  
 - Data Cleaning:
-     - We then identify which factors that may be useless for example OpenGL.
-     - We also drop columns that are repeated.
-     - We then drop columns with incomplete information.
-     - We also drop columns that are not related with chip attribute but related to performance output for example, Texture Rate, Pixel Rate, FP16, FP64
+     - We first dropped columns most likely to have no effect on chip performance, such as OpenGL.
+     - We also dropped columns that are repeated.
+     - We then dropped columns with incomplete information.
+     - We then dropped columns that will not be used as predictor variables, such as texture rate and pixel rate.
+     - We standardised the units of measurement for each variables. For instance, FP32 values in Tflops are converted to Gflop and Memory Size in GB to MB.
+  
+In the cleaned dataset, we have 14 predictor variables and 1 response variable (FP32 in Gflops).
 
 ## 3. Exploratory Data Analysis
+
 Multi-Variate data analysis: 
-In our cleaned dataset, we have 17 attributes and 1 response variable (FP32 (GFLOPS))
-We plotted the count of Arbitrary generations of chips (based on the chip Architecture)
-We use violin plot to see the distribution of all numerical variables
-We also plotted the correlation heatmap
+- plotted the histogram of Arbitrary generations of chips (based on the chip Architecture).
+- plotted violin plot to observe the distribution of all numerical variables.
+- plotted heatmap to observe correlation between each variable.
 
+## 4. Machine Learning Models
 
-
-
-## 4. Machine Learning
-
-Models Used:
 1. Random Forest Regression
-     - xxx
 2. XGBoost
-     - xxx
 3. Gradient Boosting Regression
-     - xxx
-4. Multi-Output Regression
-     - xxx
+4. Multi-Output Regression (Extra)
 
-
-
-## 5. Conclusion 
+## 5. Conclusion
 -  Data Driven Insights
 -  Model Comparison
 -  What did we learn
 
 
-Generational performance 
 
-Compare generational gaps 
-
-Compare the performance progress of the two companies over the years 
-
-Compare transistor density 
-
-Predictive modeling of future GPU generations 
-
-Predict Nvidia or AMD is doing better 
 
