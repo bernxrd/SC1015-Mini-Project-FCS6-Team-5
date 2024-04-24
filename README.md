@@ -72,5 +72,14 @@ why we use these models is explained in the Notebook.
 -  Foundry that is most dominant in the market
 -  Comparing goodness of fit of each machine learning model for our particular dataset and deciding which model is the best. 
 
+## Contribution
+Problem Formulation: Bernard, Xin Yu, Ying Zhan
+Data Gathering: Ying Zhan, Xin Yu
+Data Cleaning: Bernard, Ying Zhan
+Exploratory Data Analysis: Bernard, Xin Yu
+Machine Learning: Bernard, Xin Yu, Ying Zhan
+Data Driven Insights: Bernard, Xin Yu, Ying Zhan
+Conclusion: Ying Zhan
+
 
 
