@@ -44,6 +44,7 @@ Multi-Variate data analysis:
 - plotted the histogram of Arbitrary generations of chips (based on the chip Architecture).
 - plotted violin plot to observe the distribution of all numerical variables.
 - plotted heatmap to observe correlation between each variable.
+- more explanation can be found inside the Notebook.
 
 ## Machine Learning Models
 
