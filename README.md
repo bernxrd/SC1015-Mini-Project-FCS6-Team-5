@@ -49,6 +49,7 @@ Multi-Variate data analysis:
 2. XGBoost
 3. Gradient Boosting Regression
 4. Multi-Output Regression (Extra)
+5. KMeans Clustering (Extra)
 
 ## Conclusion 
 - Transistors (millions) and GPU Clock (MHz) are most important features. Thus, research should focus on this two variable to improve chip performance. 
