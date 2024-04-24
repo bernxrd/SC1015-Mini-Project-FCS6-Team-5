@@ -6,8 +6,8 @@ Dataset used: List of Nvidia and AMD chips with detailed statistics about their 
 
 # Contributors
 Lab Group FCSE Team 5: 
-- Chen Xinyu
 - Bernard Iskandar
+- Chen Xinyu
 - Shao YingZhan
 
 ## Problem Formulation
