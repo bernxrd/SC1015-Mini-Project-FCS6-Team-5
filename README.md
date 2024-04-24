@@ -85,7 +85,7 @@ Machine Learning: Bernard, Xin Yu, Ying Zhan
 
 Data Driven Insights: Bernard, Xin Yu, Ying Zhan
 
-Conclusion: Ying Zhan
+Conclusion: Bernard, Xin Yu, Ying Zhan
 
 
 
