@@ -62,8 +62,10 @@ Multi-Variate data analysis:
 ## What did we learn
 -  Scraping data from website into excel sheet. 
 -  All machine learning models used in this project.
+-  We can do multiple variables as response for regression.
 -  Level of importance of each feature for predicting FP32.
--  Goodness of fit of each machine learning model for our particular dataset to predict FP32. 
+-  Foundry that is most dominant in the market
+-  Compareinggoodness of fit of each machine learning model for our particular dataset and deciding which model is the best. 
 
 
 
