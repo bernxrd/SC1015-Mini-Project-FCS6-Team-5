@@ -14,7 +14,7 @@ Lab Group FCSE Team 5:
 
 Objectives:
 
-1. Given a set of chip statistics or features, develop a predictive model to estimate chip performance.The response variable for chip performance is FP32 in Gflops as it is the industry standard. 
+1. Given a set of chip statistics or features, develop a predictive model to estimate chip performance.The response variable for chip performance is FP32 in Gflops as it is the most commonly used variable for comparison of performance. 
 2. Identify important features that affect FP32 in Gflops. 
        
 Motivation / Application:
