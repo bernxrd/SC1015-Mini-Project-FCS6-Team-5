@@ -53,6 +53,8 @@ Multi-Variate data analysis:
 4. Multi-Output Regression (Extra)
 5. KMeans Clustering (Extra)
 
+why we use these models is explained in the Notebook.
+
 ## Conclusion 
 - Transistors (millions) and GPU Clock (MHz) are most important features. Thus, research should focus on this two variable to improve chip performance. 
 - Memory Size, Bus Width and Memory Clock have significant impact as well, indicating that memory configurations impact GPU performance alongside processing capabilities.Memory configurations could be a key indicator in differentiating the chip in the market. 
