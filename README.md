@@ -21,7 +21,9 @@ Motivation / Application:
 
 Chip companies generally create a range of chips that prioritises different features to cater to different market segments and sectors. The predictive model can be helpful for manufacturers to predict the performance of their chips based on the chips' statistics and help manufacturers to better evaluate different design options and make informed decisions to optimize their chip performance.
 
-Extra objective: Since pixel rate and texture are close indicators of computing performance, we attempted to use pixel rate and texture rate with FP32 in Gflops as part of a multioutput regressor model as well. 
+Extra objective: 
+- Since pixel rate and texture are close indicators of computing performance, we attempted to use pixel rate and texture rate with FP32 in Gflops as part of a multioutput regressor model as well.
+- We also want to try to find out which Foundry makes the best chips based on clustering
      
 ## Data Preparation and Cleaning
 - Data Preparation:
