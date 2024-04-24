@@ -74,11 +74,17 @@ why we use these models is explained in the Notebook.
 
 ## Contribution
 Problem Formulation: Bernard, Xin Yu, Ying Zhan
+
 Data Gathering: Ying Zhan, Xin Yu
+
 Data Cleaning: Bernard, Ying Zhan
+
 Exploratory Data Analysis: Bernard, Xin Yu
+
 Machine Learning: Bernard, Xin Yu, Ying Zhan
+
 Data Driven Insights: Bernard, Xin Yu, Ying Zhan
+
 Conclusion: Ying Zhan
 
 
