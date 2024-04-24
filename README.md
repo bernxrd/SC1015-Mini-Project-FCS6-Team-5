@@ -60,7 +60,7 @@ why we use these models is explained in the Notebook.
 - Memory Size, Bus Width and Memory Clock have significant impact as well, indicating that memory configurations impact GPU performance alongside processing capabilities.Memory configurations could be a key indicator in differentiating the chip in the market. 
 - Certain Architecture like Architecture_RDNA 3.0 and Architecture_Ampere improves  GPU capabilities. Research and development in architecture to improve product performance and market positioning.
 - From KMeans Clustering, we found that TSMC is the dominant foundry across the spectrum of performance levels, particularly excelling in the production of the highest-performance chips. TSMC’s role in the lowest and medium performance clusters also suggests a strong presence in a broader market, providing a variety of chips that cater to different segments, from general consumers to high-end users.
-
+- More insights can be found inside the Notebook.
 
 
 ## What did we learn
@@ -69,7 +69,7 @@ why we use these models is explained in the Notebook.
 -  We can do multiple variables as response for regression.
 -  Level of importance of each feature for predicting FP32.
 -  Foundry that is most dominant in the market
--  Compareinggoodness of fit of each machine learning model for our particular dataset and deciding which model is the best. 
+-  Comparing goodness of fit of each machine learning model for our particular dataset and deciding which model is the best. 
 
 
 
