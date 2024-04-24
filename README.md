@@ -54,7 +54,8 @@ Multi-Variate data analysis:
 ## Conclusion 
 - Transistors (millions) and GPU Clock (MHz) are most important features. Thus, research should focus on this two variable to improve chip performance. 
 - Memory Size, Bus Width and Memory Clock have significant impact as well, indicating that memory configurations impact GPU performance alongside processing capabilities.Memory configurations could be a key indicator in differentiating the chip in the market. 
-- Certain Architecture like Architecture_RDNA 3.0 and Architecture_Ampere improves  GPU capabilities. Research and development in architecture to improve product performance and market positioning. 
+- Certain Architecture like Architecture_RDNA 3.0 and Architecture_Ampere improves  GPU capabilities. Research and development in architecture to improve product performance and market positioning.
+- From KMeans Clustering, we found that TSMC is the dominant foundry across the spectrum of performance levels, particularly excelling in the production of the highest-performance chips. TSMC’s role in the lowest and medium performance clusters also suggests a strong presence in a broader market, providing a variety of chips that cater to different segments, from general consumers to high-end users.
 
 
 
